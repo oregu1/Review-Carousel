@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(14,174,87,1) 0%, rgba(12,116,117,1) 90% );
+}
+.container {
+    max-width: 700px;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+.review-userBlock {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    border: 4px solid rgba(12,116,117,1);
+    padding: 10px;
+}
+.review-userBlock > * div {
+    margin-bottom: 10px;
+}
+.review-img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 10px solid rgba(14,174,87,1);
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.review-img img {
+    height: 100%;
+}
+.review-userName {
+    font-size: 25px;
+}
+.review-userJob {
+    color: rgba(12,116,117,1);
+    font-weight: 300;
+    font-size: 30px;
+}
+.review-userText {
+    text-align: justify;
+    font-weight: 400;
+}
+
+/* Buttons */
+.buttons {
+    width: 100%;
+}
+.buttons button {
+    border: none;
+    outline: none;
+    color: rgba(14,174,87,1);
+    background-color: transparent;
+    font-size: 40px;
+    transition: all .3s linear;
+    cursor: pointer;
+}
+.buttons button:hover {
+    color: rgba(12,116,117,1);
+}
